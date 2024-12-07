@@ -67,7 +67,7 @@ for i in range(20):
     counts = counts@transition_matrix
 
 stationary_dist = counts
-stationary_dist
+
 plt.plot(stationary_dist[0])
 plt.show()
 
